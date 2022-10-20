@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background: #F7F9F9;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,61,159,1) 0%, rgba(61,165,219,1) 49%, rgba(42,61,136,1) 95%);
+    width: 100%;
+    height: 8%;
+}
+
+#vitlogo {
+    width: 3.5%;
+    height: 4%;
+    margin: 0.5% 0.5% 0.5% 0.7%;
+}
+
+#vit {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    margin-top: 0.5%;
+}
+
+.quizwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#quizHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#heading {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: xx-large;
+    font-weight: 500;
+    color: #223FD1;
+    margin-top: 10px; 
+}
+
+#timer {
+    font-family: 'Noto Serif Telugu', serif;
+    font-size: x-large;
+    font-weight: 500;
+    background-color: #F7F9F9;
+    color: #223FD1;
+    margin-top: 5%;
+    margin-bottom: 6.5%;
+}
+
+.quizBox {
+    padding: 10px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
+    background-color: white;
+    border-top: 4px solid #223FD1;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 1px grey;
+    width: 40%;
+}
+
+.quizBoxHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.quizBoxHeader #qnNum {
+    font-family: 'Crimson Pro', serif;
+    color: #223FD1;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+.quizBox #qn {
+    font-family: 'Crimson Pro', serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    padding: 5px 0;
+}
+
+.options {
+    margin-top: 1%;
+}
+
+.btn {
+    font-family: 'Crimson Pro', serif;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-bottom: 2px solid #223FD1;
+    border-left: 2px solid #223FD1;
+    margin: 7px 0;
+    padding: 1rem;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #223FD1;
+    color: #fff;
+}
+
+.btn:active {
+    background-color: #223FD1;
+}
+
+.message {
+    font-family: 'Crimson Pro', serif;
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.score {
+    font-family: 'Crimson Pro', serif;
+    color: #223FD1;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
