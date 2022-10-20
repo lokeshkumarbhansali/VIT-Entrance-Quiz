@@ -112,7 +112,7 @@ function showProgress(quizElement) {
 
 function showScores() {
     var passed="Your results ",result="";
-    totalMarks = totalMarks/3;
+    totalMarks = int(totalMarks/5);
     if(totalMarks > 9.5){
         result="Congratulations, You are eligible to get admission in Vellore Campus";
     }else if(totalMarks > 7.5){
